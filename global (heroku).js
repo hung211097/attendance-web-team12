@@ -8,11 +8,11 @@ module.exports = {
         database: 'qldd'
     },
     db_postgres: {
-        host: 'ec2-23-23-216-40.compute-1.amazonaws.com',
-        user: 'cjgmzlabuhqtfi',
-        password: 'd622e3da2a297c8ace6627c86463b44033c60f0c501ab16a545521d0b23cacf3',
+        host: 'ec2-23-21-147-71.compute-1.amazonaws.com',
+        user: 'tbtaempwcquhhs',
+        password: '745bf7c77f1da5982bba4aadca31c84a9758cbf09230a08ea3c846841129928a',
         port:'5432',
-        database: 'depna5rf8ertn0'
+        database: 'deje8lppqbpk5t'
     },
     //db_postgres: {
     //    host: 'localhost',
@@ -21,7 +21,7 @@ module.exports = {
     //    port:'5432',
     //    database: 'qldd'
     //},
-    host: 'https://tpltesting.herokuapp.com',
+    host: 'https://attendance-web-team12.herokuapp.com',
     email_setting: {
         host: 'smtp.office365.com', // Office 365 server
         port: 587, // secure SMTP
@@ -186,7 +186,7 @@ module.exports = {
             }
         });
     },
-    
+
     removeExtraFromTeacherName: function(teacher_name) {
         var name = teacher_name;
         //cắt học vị
